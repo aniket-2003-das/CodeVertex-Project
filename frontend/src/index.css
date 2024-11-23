@@ -1,0 +1,105 @@
+@import url('https://fonts.cdnfonts.com/css/general-sans');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+* {
+  scroll-behavior: smooth;
+}
+
+
+html,
+body {
+  background: #010103;
+  font-family: 'General Sans', sans-serif;
+  overflow-x: hidden;
+}
+
+
+
+.text-gradient {
+  background: linear-gradient(137deg, rgba(115, 116, 119, 0.75) 4.87%, rgba(92, 96, 102, 0.9) 75.88%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+
+
+/* ===== Scrollbar CSS ===== */
+/* Firefox */
+.codeblock1 {
+  width: 372.95px;
+  height: 257.05px;
+  border-radius: 100%;
+  left: calc(50% - 372.95px / 2 - 76.53px);
+  top: calc(50% - 257.05px / 2 - 47.47px);
+  background: linear-gradient(
+    123.77deg,
+    rgb(140,69,255,.7) -6.46%,
+    /* #ffa500 59.04%, */
+    rgb(74,32,138,.5) 124.53%
+  );
+  opacity: 0.2;
+  filter: blur(34px);
+  transform: matrix(1, 0, -0.03, 1, 0, 0);
+}
+.codeblock2 {
+  position: absolute;
+  width: 372.95px;
+  height: 257.05px;
+  left: calc(50% - 372.95px / 2 - 76.53px);
+  top: calc(50% - 257.05px / 2 - 47.47px);
+  border-radius: 100%;
+  background: linear-gradient(
+    118.19deg,
+    rgb(140,69,255,.7) -6.46%,
+    /* #ffa500 59.04%, */
+    rgb(74,32,138,.5) 124.53%
+  );
+  opacity: 0.2;
+  filter: blur(34px);
+  transform: matrix(1, 0, -0.03, 1, 0, 0);
+}
+.code-border {
+  border: 2px solid rgb(104, 95, 95);
+  border-image-slice: 1;
+  border-width: 2px;
+  /* position: absolute; */
+  border-image-source: linear-gradient(to , black, rgb(202, 189, 189), transparent);
+  background: linear-gradient(
+    111.93deg,
+    radial-gradient(74% 75% at center center, rgba(140, 69, 255, 0.5) 15%, rgba(14, 0, 36, 0.5) 75%, transparent) rgba(14, 0, 36, 0.5) -1.4%,
+    rgba(17, 30, 50, 0.38) 104.96%
+  );
+}
+
+
+::-webkit-scrollbar {
+  width: 4px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #b9b8b5;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(to bottom, #190d2e, #4a208a);
+  border-radius: 4px;
+}
+
+::-moz-scrollbar-thumb {
+  background: linear-gradient(to bottom, #190d2e, #4a208a);
+  border-radius: 4px;
+}
+
+::scrollbar-thumb {
+  background: linear-gradient(to bottom, #190d2e, #4a208a);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: black;
+}

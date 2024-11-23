@@ -1,0 +1,38 @@
+{
+  "name": "code-vertex",
+  "version": "1.0.0",
+  "description": "EduBlogs is a web-based application designed to provide educational blogs and internship opportunities. This platform aims to connect students with valuable learning resources and real-world experience.",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "server": "nodemon backend/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.5",
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.6",
+    "cookie-session": "^2.1.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "framer-motion": "^11.3.30",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.5.1",
+    "passport": "^0.7.0",
+    "passport-google-oauth20": "^2.0.0",
+    "react-hook-form": "^7.53.0",
+    "react-hot-toast": "^2.4.1",
+    "react-icons": "^5.3.0",
+    "react-intersection-observer": "^9.13.0",
+    "react-rating-stars-component": "^2.2.0",
+    "react-redux": "^9.1.2",
+    "react-type-animation": "^3.2.0",
+    "swiper": "^11.1.10"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
