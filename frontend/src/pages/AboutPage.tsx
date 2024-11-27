@@ -6,31 +6,34 @@ import { CardSpotlight } from '../components/ui/card-spotlight'
 import { CanvasRevealEffect } from '../components/ui/canvas-reveal-effect'
 import About from '../sections/About'
 import About2 from '../sections/About2'
+import { CallToAction } from "../sections/CallToAction";
+import UnlockCode from "../sections/UnlockCode";
+import { Testimonials } from "../sections/Testimonials";
 import { HoverEffect } from '../components/ui/card-hover-effect'
 
 const advantagesItems = [
   {
-    title: "Internship Opportunities",
+    title: "Indrustrial Training",
     description: "Apply for internships in various fields and gain hands-on experience.",
     link: "#internships"
   },
   {
-    title: "IT Courses",
+    title: "Internship opportunities",
     description: "Learn & Develop! with our certification courses.",
     link: "#courses"
   },
   {
-    title: "Career Guidance",
+    title: "Pre Placement offers",
     description: "Get personalized guidance to kickstart your career.",
     link: "#career"
   },
   {
-    title: "Community Support",
+    title: "Certifications",
     description: "Connect with peers and professionals in our community.",
     link: "#community"
   },
   {
-    title: "Project-Based Learning",
+    title: "Project Assistance",
     description: "Work on real-world projects to develop problem-solving skills.",
     link: "#projects"
   },
@@ -45,20 +48,15 @@ export default function AboutPage() {
   return (
     <div className="min-h-screen bg-[#010103] text-white">
       {/* Hero Section */}
-      <section className="relative overflow-hidden py-20">
-        <div className="absolute inset-0">
-          <CanvasRevealEffect
-            colors={[[140, 69, 255], [74, 32, 138]]}
-            containerClassName="opacity-30"
-          />
-        </div>
+      <section className="relative overflow-hidden py-28 lg:py-32 bg-gradient-to-b from-[#010103] via-[#1a1a2e] to-[#010103]">
         <div className="container relative mx-auto px-4">
-          <h1 className="mb-6 text-center text-5xl font-bold">About CodeVertex</h1>
-          <p className="text-gradient mx-auto max-w-2xl text-center text-lg">
+          <h1 className="mb-8 text-center text-5xl font-bold text-white">About CodeVertex</h1>
+          <p className="mx-auto max-w-2xl text-center text-lg text-gray-300 leading-relaxed">
             Empowering innovation through cutting-edge tech solutions. Transforming ideas into reality. 🚀
           </p>
         </div>
       </section>
+
 
       {/* Company Info */}
       <section className="py-12">
@@ -97,14 +95,11 @@ export default function AboutPage() {
         </div>
       </section>
 
-      {/* Mission Sections */}
-      <About />
-      <About2 />
 
       {/* Advantages Section */}
       <section className="py-12">
         <div className="container mx-auto px-4">
-          <h2 className="mb-12 text-center text-3xl font-bold">Our Advantages</h2>
+          <h2 className="mb-12 text-center text-3xl font-bold">Our Offerings</h2>
           <HoverEffect items={advantagesItems} />
         </div>
       </section>
@@ -148,6 +143,10 @@ export default function AboutPage() {
           </div>
         </div>
       </section>
+
+      <CallToAction />
+      {<Testimonials/> }
+
     </div>
   )
 }
