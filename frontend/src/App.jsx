@@ -4,6 +4,7 @@ import Layout from './components/Layout';
 import {Home} from './pages/Home';
 import AboutPage from './pages/AboutPage';
 import Contact from './pages/Contact';
+import PythonTutorial from './pages/pythonTutorial';
 import Internship from './pages/Internship';
 import Tutorials from './pages/Tutorials';
 import Courses from './pages/Courses';
@@ -33,6 +34,7 @@ const App = () => {
           <Route path="/tutorials" element={<Tutorials />} />
           <Route path="/internship" element={<Internship />} />
           <Route path="/courses" element={<Courses />} />
+          <Route path="/pythontutorial" element={<PythonTutorial />} />
         </Routes>
       </Layout>
     </Router>
