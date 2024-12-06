@@ -107,7 +107,8 @@ export default function TutorialsPage() {
                       <span>{tutorial.duration}</span>
                     </div>
                     <div className="flex items-center gap-1">
-                        <Link to="/pythontutorial">
+                        {/* <Link to="/pythontutorial"> */}
+                        <Link to="/Roadmap">
                           <Button>Start Tutorial</Button>
                         </Link>
                     </div>

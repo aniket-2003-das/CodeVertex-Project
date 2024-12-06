@@ -8,6 +8,7 @@ import PythonTutorial from './pages/pythonTutorial';
 import Internship from './pages/Internship';
 import Tutorials from './pages/Tutorials';
 import Courses from './pages/Courses';
+import RoadmapPage from './pages/Roadmap';
 import Loader from './components/PreLoader/Loader';
 
 const App = () => {
@@ -35,6 +36,7 @@ const App = () => {
           <Route path="/internship" element={<Internship />} />
           <Route path="/courses" element={<Courses />} />
           <Route path="/pythontutorial" element={<PythonTutorial />} />
+          <Route path="/roadmap" element={<RoadmapPage />} />
         </Routes>
       </Layout>
     </Router>
