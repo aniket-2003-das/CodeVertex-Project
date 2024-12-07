@@ -10,6 +10,7 @@ import { useLocation, Link } from "react-router-dom";
 const tutorials = [
   {
     id: 'oops-java',
+    route : 'oopsJava',
     title: 'OOPS Concepts in JAVA',
     description: 'Master Object-Oriented Programming concepts with practical examples.',
     image: '/placeholder.svg?height=200&width=400',
@@ -19,6 +20,7 @@ const tutorials = [
   },
   {
     id: 'python',
+    route: 'pythontutorial',
     title: 'Unlocking the Power of Python',
     description: 'A Comprehensive Guide to python fundamentals and advanced concepts.',
     image: '/placeholder.svg?height=200&width=400',
@@ -28,6 +30,7 @@ const tutorials = [
   },
   {
     id: 'html',
+    route:'html',
     title: 'HTML Fundamentals',
     description: 'Learn HTML from basics to advanced concepts with real-world examples.',
     image: '/placeholder.svg?height=200&width=400',
@@ -37,6 +40,7 @@ const tutorials = [
   },
   {
     id: 'dsa',
+    route :'dsa',
     title: 'Learn DSA in C++ Series',
     description: 'Master Data Structures and Algorithms with C++ implementation.',
     image: '/placeholder.svg?height=200&width=400',
@@ -46,6 +50,7 @@ const tutorials = [
   },
   {
     id: 'java',
+    route:'java',
     title: 'A Guide to Java Programming',
     description: 'Comprehensive Java programming from basics to advanced topics.',
     image: '/placeholder.svg?height=200&width=400',
@@ -55,6 +60,7 @@ const tutorials = [
   },
   {
     id: 'javascript',
+    route: 'javascript',
     title: 'JavaScript Mastery',
     description: 'Master modern JavaScript with practical projects and exercises.',
     image: '/placeholder.svg?height=200&width=400',
@@ -108,7 +114,7 @@ export default function TutorialsPage() {
                     </div>
                     <div className="flex items-center gap-1">
                         {/* <Link to="/pythontutorial"> */}
-                        <Link to="/Roadmap">
+                        <Link to={`/${tutorial.route}`}>
                           <Button>Start Tutorial</Button>
                         </Link>
                     </div>

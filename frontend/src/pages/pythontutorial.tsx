@@ -71,7 +71,7 @@ export default function PythonTutorial() {
             <CodeBlock
               code={`# Integer
 age = 25
-
+bjef
 # Float
 height = 1.75
 

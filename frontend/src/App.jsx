@@ -10,7 +10,11 @@ import Tutorials from './pages/Tutorials';
 import Courses from './pages/Courses';
 import RoadmapPage from './pages/Roadmap';
 import Loader from './components/PreLoader/Loader';
-
+import OOPJavaTutorial from './pages/oopsTutorial'
+import HTMLFundamentals from './pages/htmlTutorial'
+import DSACppTutorial from './pages/dsaTutorial'
+import JavaTutorial from './pages/javaTutorial'
+import JavaScriptTutorial from './pages/javascript'
 const App = () => {
   const [isLoading, setIsLoading] = React.useState(true);
 
@@ -36,6 +40,11 @@ const App = () => {
           <Route path="/internship" element={<Internship />} />
           <Route path="/courses" element={<Courses />} />
           <Route path="/pythontutorial" element={<PythonTutorial />} />
+          <Route path="/oopsJava" element={<OOPJavaTutorial />} />
+          <Route path = "/html" element = {<HTMLFundamentals/>} />
+          <Route path= '/dsa' element={<DSACppTutorial/>}/>
+          <Route path = '/java' element ={<JavaTutorial/>}/>
+          <Route path = '/javascript'element = {<JavaScriptTutorial/>}/>
           <Route path="/roadmap" element={<RoadmapPage />} />
         </Routes>
       </Layout>
