@@ -20,5 +20,9 @@ export const NavbarLinks = [
       title: "Tutorials",
       path: "/tutorials",
     },
+    {
+      title: "Roadmap",
+      path: "/Roadmap",
+    },
 
   ];   
