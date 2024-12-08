@@ -1,0 +1,116 @@
+/* Reset and base styling */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Card Container */
+
+.card-container {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 8px;
+    background: radial-gradient(at top left, #25004f 5%, black 100%);
+    box-shadow: 0px 0px 5px rgba(234, 232, 232, 0.2);
+    overflow: hidden;
+    text-align: center;
+    padding: 20px;
+    z-index: 5;
+    margin: 40px 0 20px 0;
+}
+
+
+/* Image Styling */
+
+.image-container {
+    margin-bottom: 20px;
+}
+
+.card-image {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 8px;
+}
+
+
+/* Content */
+
+.card-content h1 {
+    font-size: 1.5rem;
+    color: white;
+    margin-bottom: 15px;
+}
+
+.card-content p {
+    font-size: 0.9rem;
+    color: #fff;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+
+/* Button */
+
+.apply-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.apply-button:hover {
+    background-color: #0056b3;
+}
+
+
+/* Base Button Styles */
+
+.apply-button {
+    position: relative;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: bold;
+    overflow: hidden;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+
+/* Hover Effect: Background to White, Text to Black */
+
+.card-content p:hover {
+    color: white;
+}
+
+.apply-button:hover {
+    background-color: white;
+    color: black;
+}
+
+
+/* Sparkling Effect */
+
+.sparkle-button::before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.6) 20%, transparent 50%);
+    background-size: 20px 20px;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s ease;
+}

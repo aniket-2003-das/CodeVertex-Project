@@ -1,0 +1,55 @@
+/* Container for Intern Cards */
+
+.InternCard {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+
+/* Card Wrapper */
+
+.card-wrapper {
+    width: calc(33.33% - 20px);
+    opacity: 0;
+    transform: scale(0.5);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.card-wrapper.visible {
+    animation: appear 0.8s ease forwards;
+}
+
+
+/* Keyframes for fade-in and scale animation */
+
+@keyframes appear {
+    from {
+        opacity: 0;
+        transform: scale(0.5);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+
+/* Responsive Design for Tablets */
+
+@media (max-width: 768px) {
+    .card-wrapper {
+        width: calc(50% - 20px);
+    }
+}
+
+
+/* Responsive Design for Mobile */
+
+@media (max-width: 480px) {
+    .card-wrapper {
+        width: 100%;
+    }
+}

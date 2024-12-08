@@ -1,13 +1,14 @@
 import React from 'react'
+import InterCards from './../components/InternCards/InterCards';
+import Heading from '../components/Heading/Heading';
 
 const Internship = () => {
   return (
-    <div className='h-screen flex items-center justify-center'>
-
-      Internship
+    <div className="flex flex-col min-h-screen pt-[150px]">
+      <Heading/>
+      <InterCards/>
     </div>
   )
 }
 
 export default Internship
-

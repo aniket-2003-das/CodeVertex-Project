@@ -7,10 +7,10 @@ export const NavbarLinks = [
       title: "About",
       path: "/about",
     },
-    {
-      title: "Free Videos",
-      path: "/videos",
-    },
+    // {
+    //   title: "Free Videos",
+    //   path: "/videos",
+    // },
     
     {
       title: "Internship",
