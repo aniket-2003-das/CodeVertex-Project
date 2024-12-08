@@ -1,0 +1,35 @@
+export const TutorialObject = [{
+    'Image':'https://www.infoworld.com/wp-content/uploads/2024/06/java_binary_code_gears_programming_coding_development_by_bluebay2014_gettyimages-1040871468_2400x1600-100795798-orig.jpg?quality=50&strip=all',
+    'name':'Java'
+},{
+    'Image':'https://www.simplilearn.com/ice9/free_resources_article_thumb/What_is_CPP.jpg',
+    'name':'C++'
+},
+{
+    'Image':'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQA58mH1EAjc2uEChw2pMg-Lkm9iUhR1U6Fbw&s',
+    'name':'Python'
+},
+{
+    'Image':'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSA6DTmB377aQ16mxu4wNCF8MdHQFe4UIHs7g&s',
+    'name':'JavaScript'
+},
+{
+    'Image':'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSr4ISVcXgykdMnPuRPFdIhH4cJpVxhbd6i0w&s',
+    'name':'CSS'
+},
+{
+    'Image':'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDdbsj3EHSb7xthYNoOGrwiHG4eDXFndEauw&s',
+    'name':'HTML'
+},
+{
+    'Image':'https://www.securityjourney.com/hubfs/Blog/TypeScript/SJ2022_Blog_TypeScriptLanguage.jpg',
+    'name':'Typescript'
+},
+{
+    'Image':'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOsKTyikwOJHZT-cFbIUU4e8tc6K9BdTOsyA&s',
+    'name':'PHP'
+},
+{
+    'Image':'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrXAR-WseoPnQC2MRxaq4yAWiVLR13_ZwzMw&s',
+    'name':'Node Js'
+}];
