@@ -52,7 +52,8 @@ export default function AboutPage() {
         <div className="container relative mx-auto px-4">
           <h1 className="mb-8 text-center text-5xl font-bold text-white">About CodeVertex</h1>
           <p className="mx-auto max-w-2xl text-center text-lg text-gray-300 leading-relaxed">
-            Empowering innovation through cutting-edge tech solutions. Transforming ideas into reality. 🚀
+          At CodeVertex, we provide students internship opportunities, helping them level up and bridge the often-overlooked gap between academics and industry practice. <br></br> We recognize that technical knowledge alone isn’t enough real-world exposure is what transforms aspiring students into competent professionals. <br></br>In the dynamic tech landscape, where innovation is constant and demands are ever-changing, we aim to redefine how students learn and grow.
+          
           </p>
         </div>
       </section>

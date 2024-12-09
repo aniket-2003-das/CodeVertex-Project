@@ -71,16 +71,16 @@ export const CallToAction = () => {
           ></motion.div>
           <div className="relative flex flex-wrap gap-y-8 md:gap-y-10 items-center justify-center gap-x-10">
             <div className="border border-white/15 py-6 px-8 rounded-xl group overflow-hidden relative w-[250px] flex-col text-center justify-center items-center bg-black hover:opacity-70">
-              <p className="text-white text-2xl font-semibold mt-2">5M+</p>
+              <p className="text-white text-2xl font-semibold mt-2">1000+</p>
               <p className="text-white/25 text-lg font-medium">Active Student</p>
             </div>
             <div className="hover:opacity-70 border border-white/15 py-6 px-8 rounded-xl group overflow-hidden relative w-[250px] flex-col text-center justify-center items-center bg-black">
-              <p className="text-white text-2xl font-semibold mt-2">200+</p>
+              <p className="text-white text-2xl font-semibold mt-2">10+</p>
               <p className="text-white/25 text-lg font-medium">Courses</p>
             </div>
             <div className="hover:opacity-70 border border-white/15 py-6 px-8 rounded-xl group overflow-hidden relative w-[250px] flex-col text-center justify-center items-center bg-black">
-              <p className="text-white text-2xl font-semibold mt-2">5+</p>
-              <p className="text-white/25 text-lg font-medium">Awards</p>
+              <p className="text-white text-2xl font-semibold mt-2">20+</p>
+              <p className="text-white/25 text-lg font-medium">Domains</p>
             </div>
           </div>
         </motion.div>

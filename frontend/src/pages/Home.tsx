@@ -15,15 +15,15 @@ export const Home = () => {
     <>
       {/* <div className={twMerge("bg-black text-white antialiased")}> */}
       <div className="bg-black text-white">
-        <Hero />
-        <About />
-        <About2 />
-        <Advantages />
+        <Hero/>
+        <About/>
+        <Advantages/>
+        <About2/>
         {/* <CodeBlocks2 /> */}
         {/* <CallToAction /> */}
         {/* <Features /> */}
         {/* <Testimonials /> */}
-        <FAQs />
+        <FAQs/>
       </div>
     </>
   );

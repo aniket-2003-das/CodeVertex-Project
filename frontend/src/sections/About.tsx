@@ -7,12 +7,12 @@ const About = () => {
   const heading = (
     <div className="lg:text-4xl text-3xl md:text-3xl font-semibold w-11/12 max-w-maxContent   text-white overflow-hidden relative">
       "Our
-      <HighlightText text={"Mission "} /> Our Values
+      <HighlightText text={"Mission"} /> Our Values"
     </div>
   );
 
   const subheading = (
-    "Welcome to our world! We're a team of innovators, creators, and problem-solvers passionate about making a difference. Our mission is to empower individuals and businesses to reach new heights. Our journey began with a simple idea: to bridge the gap between technology and human connection. Founded by a group of friends who shared a vision for a better future, our company has grown into a dynamic community of like-minded individuals.");
+  "We empower students with real-world experience through internships, ensuring they are industry-ready from day one. . We believe that experience is the best teacher, and through hands-on learning opportunities, students not only gain technical experience but also develop critical thinking and team work.");
 
  
   return (

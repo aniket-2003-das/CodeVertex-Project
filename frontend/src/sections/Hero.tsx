@@ -98,7 +98,7 @@ export const Hero = () => {
             transition={{ duration: 1, delay: 1 }}
             className="text-8xl md:text-[85px] md:leading-none font-semibold tracking-tighter bg-[radial-gradient(100%_100%_at_top_left,white,white,rgb(74,32,138,.5))] bg-white text-transparent bg-clip-text text-center"
           >
-            Your shortcut to <br /> everything.
+            Learn Build and Excell
           </motion.h1>
           <motion.p
             initial={{ opacity: 0, y: 20 }}
@@ -106,8 +106,7 @@ export const Hero = () => {
             transition={{ duration: 1.5, delay: 2 }}
             className="text-lg md:text-xl  max-w-xl mx-auto text-white/90 mt-9 text-center"
           >
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque id
-            dicta, fuga nesciunt esse accusantium inventore ..
+          Empowering Students with Cutting-Edge Internships and Expert Tech Training!
           </motion.p>
         </div>
      

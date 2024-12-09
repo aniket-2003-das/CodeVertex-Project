@@ -38,7 +38,7 @@ const Heading = () => {
           </p>
         </div>
         <div className="sub-heading">
-          <h2>Internship Position</h2>
+          <h2>Internship Position offered</h2>
         </div>
       </div>
     </div>
